@@ -78,6 +78,10 @@ details{
   border-style:inset;
   border-color:#133E7F;
 }
+details p{
+  text-align:center;
+  font-size: 0.8em;
+}
 #tech{
   margin-left:20%;
   display:inline-block;
