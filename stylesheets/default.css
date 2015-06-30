@@ -46,6 +46,10 @@ ol{
   width: 40px;
   height: 40px;
 }
+#twitter-timeline{
+  display:inline-block;
+  margin-left:20%;
+}
 li{
   font-size: 20px;
 }
@@ -93,7 +97,13 @@ details p{
 }
 section p{
   font-size: 0.7em;
-  font-family:Droid serif;
 margin-left:10%;
 margin-right:10%;
+}
+#ruby {
+  background-color:black;
+  font-family: 'Inconsolata';
+  color:white;
+  margin-left:10%;
+  margin-right:10%;
 }
