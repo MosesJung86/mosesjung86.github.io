@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>The Cycle Enumerable</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<style type="text/css"></style>
+</head>
+
+<main>
+  <header>
+    <h1>Moses Jung</h1>
+    <p>Programmer/Developer</p>
+  </header>
+  <nav>
+    <a href='../index.html'>Main</a>
+    <a href="../contact.html">Contact</a>
+    <a href="#">Resume</a>
+    <a href="#">Projects</a>
+    <a href='index.html'>Blogs</a>
+  </nav>
+  <h2>The Cycle Enumerable</h2>
+  <h3>What it is and how to use it</h3>
+  <h4>July 12, 2015</h4>
+
+  <section>
+    <p>The Enumerable cycle is a public method that calls a block for each element repeatedly a select number of times or forever if none or nil is given. If a non-positive number is given or the collection is empty, this does nothing. The Enumerable cycle also returns nil if the loop has finished without getting interrupted.  If no block is given, an enumerator is returned instead.</p>
+
+    <p>So in this first example of cycle, since there is no select number given, the method will print out the array a forever.  In the second example, it is given a number of 2 times so it will print out the array twice:
+    </p>
+    <br />
+    <section id="ruby"><br />a = ["a", "b", "c"]<br /><br />
+a.cycle {|x| puts x }  <br />#prints: a, b, c, a, b, c,.. forever.<br /><br />
+a.cycle(2) {|x| puts x }  <br />#prints: a, b, c, a, b, c.<br /><br /></section>
+    <p>
+
+    </p>
+    <p>
+
+<br /><br />
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+  <footer>
+    <details>
+      <summary>Contact</summary>
+      <p><a href="mailto:MosesJung86@gmail.com">Email Me</p>
+    </details>
+  </footer>
+</main>
