@@ -23,6 +23,7 @@ text-align:center;
 font-size: 2em;
 }
 header p{
+  /*Programmer Developer Title*/
   text-align:center;
   font-size: 1em;
 }
@@ -55,7 +56,7 @@ li{
   font-size: 20px;
 }
 a{
-  color:#F9FCFF;
+  color:#BFBFBF;
 }
 summary{
   text-align: center;
@@ -64,9 +65,10 @@ summary{
 footer p{
   /* Email me*/
   font-size: 1em;
-  color:#F9FCFF;
+  color:#BFBFBF;
 }
 h2{
+color:#FEFFFF;
 text-align:center;
 font-size: 1.5em;
 }
@@ -99,8 +101,9 @@ details p{
   display:inline-block;
 }
 section p{
+  /*body paragraphs*/
   font-size: 0.7em;
-  color:#F9FCFF;
+  color:#FFFFFF;
   margin-left:10%;
   margin-right:10%;
 }
