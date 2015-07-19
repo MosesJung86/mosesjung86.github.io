@@ -114,3 +114,10 @@ section p{
   margin-left:10%;
   margin-right:10%;
 }
+#comment{
+  font-size: 0.7em;
+  font-family: 'Inconsolata';
+  color:gray;
+  margin-left:10%;
+  margin-right:10%;
+}
