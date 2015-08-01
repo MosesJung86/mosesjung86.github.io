@@ -127,3 +127,9 @@ section p{
 ol{
   text-align:left;
 }
+#projects{
+  margin-top:5%;
+  margin-left:40%;
+  margin-bottom:10%;
+  display:inline-block;
+}
