@@ -96,10 +96,11 @@ details p{
 }
 #tech{
   margin-left:10%;
+  margin-bottom:10%;
   display:inline-block;
 }
 #cult{
-  margin-left:20%;
+  margin-left:10%;
   margin-bottom:10%;
   display:inline-block;
 }
