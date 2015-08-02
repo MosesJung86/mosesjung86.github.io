@@ -95,12 +95,13 @@ details p{
   font-size: 0.8em;
 }
 #tech{
-  margin-left:10%;
+  margin-left:7%;
   margin-bottom:10%;
+  width:15em;
   display:inline-block;
 }
 #cult{
-  margin-left:10%;
+  margin-left:5%;
   width:15em;
   display:inline-block;
 }
